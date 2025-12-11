@@ -1,14 +1,29 @@
-# Tonopah Tradier - Options Chain Viewer
+# Tonopah Tradier 
 
-A professional options chain viewer for Tradier Sandbox API.
+A professional viewer for Tradier Sandbox API.
 
 ## Features
-- Real-time stock quotes
-- Options chains with Greeks & IV
-- ATM highlighting with gold border
+
+### Options Chain Analysis
+- Real-time stock quotes with bid/ask spreads
+- Options chains with Greeks & Implied Volatility
+- ATM (At-The-Money) highlighting with gold border
 - Strike interval filtering ($1/$5/$10)
-- Strike range controls (±15/±30/±50)
+- Strike range controls (±15/±30/±50 strikes)
+- Smooth scroll to ATM button
 - Resizable & draggable panels
+
+### Account Management (New in v0.6!)
+- Account information dashboard
+- Multi-account support with dropdown selector
+- Real-time balance display:
+  - Total Cash, Market Value, Total Equity
+  - Options & Stock Buying Power
+  - Long/Short Market Values
+  - Option Positions
+  - Pending Orders Count
+- Currency formatting with comma separators
+- Auto-refresh balances
 
 ## Requirements
 - Python 3.x (for local server)
@@ -37,7 +52,10 @@ python3 -m http.server 8080
 
 ## Version
 
-v0.5 - Options Chain Viewer
+v0.6 - Options Chain Viewer + Account Information
+
+Release Date: December 13, 2025
+
 
 ## Privacy & Security
 
